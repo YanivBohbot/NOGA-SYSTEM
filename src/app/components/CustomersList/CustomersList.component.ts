@@ -68,4 +68,8 @@ export class CustomersListComponent implements OnInit {
     );
     this.loadCustomers();
   }
+
+  openAddCustomerDialog() {
+    console.log('Opening add customer dialog');
+  }
 }
