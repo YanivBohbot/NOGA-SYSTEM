@@ -4,7 +4,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 import { GetDataService } from './services/getData.service';
-import { HomePageComponent } from './HomePage/HomePage.component';
+import { HomePageComponent } from './components/HomePage/HomePage.component';
 import { CustomersListComponent } from './components/CustomersList/CustomersList.component';
 import { DetailsCustomersComponent } from './components/DetailsCustomers/DetailsCustomers.component';
 import { HeaderComponent } from './layout/Header/Header.component';
